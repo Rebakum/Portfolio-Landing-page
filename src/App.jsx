@@ -7,7 +7,7 @@ function App() {
     <>
       <div>
         <Navber />
-        <div className="container mx-auto  ">
+        <div className="container mx-auto  mt-20  overflow-hidden">
           <Home1 />
         </div>
       </div>

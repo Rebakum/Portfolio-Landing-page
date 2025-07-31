@@ -25,7 +25,7 @@ const MyWorking = () => {
             Protfolio of Success
           </h2>
           <button className="fancy1-btn mt-10 ">
-            <span>View Portfolio</span>
+            <span className=" ">View Portfolio</span>
           </button>
         </div>
       </div>
