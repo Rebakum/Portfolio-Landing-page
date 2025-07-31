@@ -2,7 +2,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
-import person1 from "../../assets/images/man-1.png";
+import person1 from "../../assets/images/man-3.png";
 import "./HeroButton.css";
 
 const MarketingService = () => {
@@ -29,24 +29,24 @@ const MarketingService = () => {
             data-aos="fade-up"
             data-aos-delay="300"
           >
-            <div className="bg-green-900 text-white p-6 relative flex justify-between items-start">
+            <div className="bg-green-900 text-white pt-12 pb-6 px-6 relative flex justify-between items-start">
               <div>
                 <div className="absolute w-20 h-20 top-4 left-4 bg-orange-500 text-white text-sm font-semibold p-3 rounded-full">
                   Start at <br />
                   $299
                 </div>
-                <div className="absolute top-16  left-40 flex justify-end mb-4 space-x-2">
+                <div className="absolute top-16 left-40 flex justify-end space-x-2">
                   <img
                     src="https://img.icons8.com/color/48/facebook-new.png"
                     alt="Facebook"
-                    className="h-10 w-10"
+                    className="h-10 w-10 auto-scale"
                   />
                 </div>
-                <div className="absolute bottom-28  right-5 flex justify-end mb-4 space-x-2">
+                <div className="absolute bottom-28 right-5 flex justify-end space-x-2">
                   <img
                     src="https://img.icons8.com/color/48/facebook-new.png"
                     alt="Facebook"
-                    className="h-6 w-6"
+                    className="h-6 w-6 auto-scale"
                   />
                 </div>
                 <div className="text-left mt-32">
@@ -61,7 +61,7 @@ const MarketingService = () => {
               <img
                 src={person1}
                 alt="Person"
-                className="pt-10 w-32 h-full mx-auto"
+                className="w-32 h-auto mt-6 mx-auto"
               />
             </div>
 
@@ -92,24 +92,24 @@ const MarketingService = () => {
             data-aos="fade-up"
             data-aos-delay="600"
           >
-            <div className="bg-[#601a38] text-white p-6 relative flex justify-between items-start">
+            <div className="bg-[#601a38] text-white pt-12 pb-6 px-6 relative flex justify-between items-start">
               <div>
                 <div className="absolute w-20 h-20 top-4 left-4 bg-orange-500 text-white text-sm font-semibold p-3 rounded-full">
                   Start at <br />
                   $299
                 </div>
-                <div className="absolute top-16  left-40 flex justify-end mb-4 space-x-2">
+                <div className="absolute top-16 left-40 flex justify-end space-x-2">
                   <img
                     src="https://img.icons8.com/color/48/instagram-new.png"
                     alt="Instagram"
-                    className="h-10 w-10"
+                    className="h-10 w-10 auto-scale"
                   />
                 </div>
-                <div className="absolute bottom-28  right-5 flex justify-end mb-4 space-x-2">
+                <div className="absolute bottom-28 right-5 flex justify-end space-x-2">
                   <img
                     src="https://img.icons8.com/color/48/youtube-play.png"
                     alt="YouTube"
-                    className="h-6 w-6"
+                    className="h-6 w-6 auto-scale"
                   />
                 </div>
                 <div className="text-left mt-32">
@@ -124,7 +124,7 @@ const MarketingService = () => {
               <img
                 src={person1}
                 alt="Person"
-                className="pt-10 w-32 h-full mx-auto"
+                className="w-32 h-auto mt-6 mx-auto"
               />
             </div>
 
@@ -149,30 +149,30 @@ const MarketingService = () => {
             </div>
           </div>
 
-          {/* Card 3  */}
+          {/* Card 3 */}
           <div
             className="border rounded-lg overflow-hidden shadow-sm"
             data-aos="fade-up"
             data-aos-delay="900"
           >
-            <div className="bg-green-900 text-white p-6 relative flex justify-between items-start">
+            <div className="bg-green-900 text-white pt-12 pb-6 px-6 relative flex justify-between items-start">
               <div>
                 <div className="absolute w-20 h-20 top-4 left-4 bg-orange-500 text-white text-sm font-semibold p-3 rounded-full">
                   Start at <br />
                   $299
                 </div>
-                <div className="absolute top-16  left-40 flex justify-end mb-4 space-x-2">
+                <div className="absolute top-16 left-40 flex justify-end space-x-2">
                   <img
                     src="https://img.icons8.com/color/48/google-logo.png"
                     alt="Google"
-                    className="h-10 w-10"
+                    className="h-10 w-10 auto-scale"
                   />
                 </div>
-                <div className="absolute bottom-28  right-5 flex justify-end mb-4 space-x-2">
+                <div className="absolute bottom-28 right-5 flex justify-end space-x-2">
                   <img
                     src="https://img.icons8.com/color/48/google-logo.png"
                     alt="Google"
-                    className="h-6 w-6"
+                    className="h-6 w-6 auto-scale"
                   />
                 </div>
                 <div className="text-left mt-32">
@@ -187,7 +187,7 @@ const MarketingService = () => {
               <img
                 src={person1}
                 alt="Person"
-                className="pt-10 w-32 h-full mx-auto"
+                className="w-32 h-auto mt-6 mx-auto"
               />
             </div>
 

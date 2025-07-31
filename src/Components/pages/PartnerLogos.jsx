@@ -1,5 +1,8 @@
 // src/components/PartnerLogos.jsx
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 import archinLogo from "../../assets/images/archinlogo.png";
 import githubLogo from "../../assets/images/githublogo.png";
 import matthewLogo from "../../assets/images/matthewlogo.png";
@@ -15,6 +18,12 @@ const logos = [
 ];
 
 const PartnerLogos = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  }, []);
   return (
     <section className="py-16 bg-gradient-to-r from-blue-100 via-white to-red-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -24,6 +33,7 @@ const PartnerLogos = () => {
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">
           {logos.map((logo, index) => (
             <div
+              data-aos="fade-up"
               key={index}
               className="bg-white rounded-xl shadow-md hover:shadow-xl p-4 flex flex-col items-center justify-center transition-all duration-300 group"
             >

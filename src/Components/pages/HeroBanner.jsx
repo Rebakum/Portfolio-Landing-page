@@ -3,12 +3,12 @@ import { TbBrandFiverr } from "react-icons/tb";
 import facebook from "../../assets/images/facebook.png";
 import google from "../../assets/images/google-1.png";
 import instagram from "../../assets/images/instagram.png";
-import man1 from "../../assets/images/man-1.png";
+import man1 from "../../assets/images/man-2.png";
 import "./HeroButton.css";
 
 const HeroBanner = () => {
   return (
-    <section className="relative overflow-hidden h-screen flex items-center justify-center bg-[#f9f9e6]">
+    <section className="relative overflow-hidden h-screen flex items-center justify-center bg-[#FBF9F1]">
       {/* Content */}
       <div className="relative z-10 flex flex-col-reverse lg:flex-row items-center justify-between w-full max-w-7xl px-4 lg:px-16">
         {/* Left Content */}

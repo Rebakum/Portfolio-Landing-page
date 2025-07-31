@@ -1,4 +1,6 @@
-import { useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect, useState } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const testimonials = [
@@ -41,6 +43,12 @@ const testimonials = [
 ];
 
 const TestimonialSlider = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  }, []);
   const [index, setIndex] = useState(0);
 
   const prev = () =>
@@ -49,13 +57,21 @@ const TestimonialSlider = () => {
 
   return (
     <section className="bg-[#032433] text-white py-20 px-4">
-      <div className="max-w-4xl mx-auto text-center">
+      <div
+        data-aos="fade-right"
+        data-aos-delay="200"
+        className="max-w-4xl mx-auto text-center"
+      >
         <p className="text-red-400 font-semibold mb-2">Testimonials</p>
         <h2 className="text-3xl md:text-5xl font-bold mb-12">
           Customer Success Stories <br /> and Reviews
         </h2>
 
-        <div className="bg-white text-gray-800 rounded-lg shadow-md px-8 py-12 relative">
+        <div
+          data-aos="fade-right"
+          data-aos-delay="400"
+          className="bg-white text-gray-800 rounded-lg shadow-md px-8 py-12 relative"
+        >
           <div className="flex justify-center space-x-2 mb-6">
             {testimonials.map((t, i) => (
               <img

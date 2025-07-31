@@ -36,13 +36,13 @@ const AdsSpecialistSection = () => {
       />
 
       {/* Main Content */}
-      <div data-aos="fade-up">
+      <div data-aos="fade-up ">
         <h2 className="text-4xl font-bold">
           Crafting Campaigns That Convert: <br /> Meet Your Ads Specialist
         </h2>
       </div>
 
-      <div className="grid lg:grid-cols-2 justify-center gap-0.5 mt-10">
+      <div className="grid lg:grid-cols-2 justify-center gap-0.5 pt-20">
         {/* Stats Left Column */}
         <div
           className="space-y-10 text-gray-300 border-r border-gray-600 pr-16"
