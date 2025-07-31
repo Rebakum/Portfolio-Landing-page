@@ -1,0 +1,44 @@
+.fancy1-btn {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: capitalize;
+  border-radius: 2px;
+  color: red;
+  border: 1px solid red;
+  background-color: transparent;
+  overflow: hidden;
+  transition: color 0.4s ease;
+
+  cursor: pointer;
+}
+
+.fancy1-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 0%;
+  height: 100%;
+  border-radius: 2px;
+  background-color: red;
+  z-index: 1;
+  transition: width 0.4s ease, left 0.4s ease;
+}
+
+.fancy1-btn:hover::before {
+  width: 100%;
+  left: 0;
+}
+
+.fancy1-btn span {
+  position: relative;
+  z-index: 2;
+  transition: color 0.4s ease;
+}
+
+.fancy1-btn:hover span {
+  color: white;
+}
