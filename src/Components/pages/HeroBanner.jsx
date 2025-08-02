@@ -56,21 +56,21 @@ const HeroBanner = () => {
             <img
               src={facebook}
               alt="facebook"
-              className="w-8 h-8 rounded-full shadow-lg border-4 border-white"
+              className="w-8 h-8 rounded-full shadow-lg border-4 border-white auto-scale"
             />
           </span>
           <span className="absolute right-2 top-1/2 transform -translate-y-1/2 z-20 hidden sm:block">
             <img
               src={instagram}
               alt="instagram"
-              className="w-8 h-8 rounded-full shadow-lg border-4 border-white"
+              className="w-8 h-8 rounded-full shadow-lg border-4 border-white auto-scale"
             />
           </span>
           <span className="absolute top-4 left-1/2 transform -translate-x-1/2 z-20">
             <img
               src={google}
               alt="google"
-              className="w-8 h-8 rounded-full shadow-lg border-4 border-white"
+              className="w-8 h-8 rounded-full shadow-lg border-4 border-white auto-scale"
             />
           </span>
         </div>
